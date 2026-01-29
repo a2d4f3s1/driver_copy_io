@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+
+id = "driver_copy_io"
+name = "Driver Copy Utility"
+version = "2.1.0"
+tagline = "Copy/Paste drivers via JSON using full path"
+maintainer = "Moteki"
+type = "add-on"
+
+website = "https://github.com/a2d4f3s1"
+tags = ["Animation", "Rigging"]
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
