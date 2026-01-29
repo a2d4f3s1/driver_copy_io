@@ -7,7 +7,7 @@ tagline = "Copy/Paste drivers via JSON using full path"
 maintainer = "Moteki"
 type = "add-on"
 
-website = "https://github.com/a2d4f3s1"
+website = "https://github.com/a2d4f3s1/driver_copy_io"
 tags = ["Animation", "Rigging"]
 blender_version_min = "4.2.0"
 license = ["SPDX:GPL-3.0-or-later"]
