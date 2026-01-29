@@ -1,5 +1,5 @@
 bl_info = {
-    "name": "Driver Copy Utility",
+    "name": "Driver Copy IO",
     "author": "moteki",
     "version": (2, 1, 0),
     "blender": (4, 2, 0),

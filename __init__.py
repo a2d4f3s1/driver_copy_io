@@ -1,8 +1,8 @@
 # =============================================================================
-# Driver Copy Utility - Blender Add-on Package Entry Point
+# Driver Copy IO - Blender Add-on Package Entry Point
 # =============================================================================
 """
-Driver Copy Utility
+Driver Copy IO
 
 ドライバのコピー/ペースト/ファイル入出力を行うBlenderアドオン
 
@@ -10,14 +10,14 @@ Driver Copy Utility
     1. driver_copy_io フォルダをzipに圧縮
     2. Blender > Edit > Preferences > Add-ons > Install
     3. zipファイルを選択してインストール
-    4. "Animation: Driver Copy Utility" を有効化
+    4. "Animation: Driver Copy IO" を有効化
 
 使用方法:
     3D View > Sidebar (N) > Tool > Driver Copy
 """
 
 bl_info = {
-    "name": "Driver Copy Utility",
+    "name": "Driver Copy IO",
     "author": "moteki",
     "version": (2, 1, 0),
     "blender": (4, 2, 0),

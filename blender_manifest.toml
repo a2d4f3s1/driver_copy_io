@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "driver_copy_io"
-name = "Driver Copy Utility"
+name = "Driver Copy IO"
 version = "2.1.0"
 tagline = "Copy/Paste drivers via JSON using full path"
 maintainer = "Moteki"
