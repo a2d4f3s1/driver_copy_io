@@ -1,49 +1,44 @@
-# Driver Copy Utility
+# driver_copy_io
+Blender用のアドオンです。
 
-オブジェクト間でドライバーをJSON形式でコピー＆ペーストできるBlenderアドオン。
+オブジェクト間でドライバーをJSON形式でコピー＆ペーストできます。
+- クリップボード経由でドライバーを複製
+- JSONファイルに保存/読込してバックアップや共有が可能
+- `bpy.data.objects["Name"].property` 形式のフルパスで正確に指定
 
-<p align="center">
-  <img src="docs/driver_copy_io_image_001.jpg" width="800">
-</p>
+<img src="docs/driver_copy_io_image_001.jpg" width="800">
 
-## 機能
-
-- **ドライバーのコピー/ペースト** - クリップボード経由で他のプロパティにドライバーを複製
-- **JSON保存/読込** - ファイルにエクスポートしてバックアップや共有が可能
-- **フルパス対応** - `bpy.data.objects["Name"].property` 形式で正確に指定
-
-<p align="center">
-  <img src="docs/driver_copy_io_image_002.jpg" width="800">
-</p>
-
-## インストール
-
+## 【導入方法】
 ### Blender 4.2以降
-1. Extensionをダウンロード
-2. 編集 > プリファレンス > エクステンションを入手 > ディスクからインストール
-3. ダウンロードしたフォルダまたはzipを選択
+[プリファレンス > エクステンションを入手 > ディスクからインストール] からフォルダまたはzipを選択して下さい。
 
 ### Blender 4.1以前
-1. 編集 > プリファレンス > アドオン > インストール
-2. `driver_copy_addon.py` を選択
-3. 「Animation: Driver Copy Utility」を有効化
+[プリファレンス > アドオン > インストール] から `driver_copy_addon.py` を選択して下さい。
 
-## 使い方
+3Dビューのサイドパネル（Nキー）のツールに「Driver Copy」パネルが追加されます。
 
-1. パネルを開く: **3Dビュー > サイドバー (N) > ツール > Driver Copy**
-2. コピー元のパスを入力（例: `bpy.data.objects["Cube"].location[0]`）
-3. **Copy** をクリック
-4. コピー先のパスを入力
-5. **Paste** をクリック
+## 【使用方法】
+1. 「Export」にコピー元のパスを入力（例: `bpy.data.objects["Cube"].location[0]`）
+2. 「Copy」ボタンを押す
+3. 「Import」にコピー先のパスを入力
+4. 「Paste」ボタンを押す
 
-### パス形式
+<img src="docs/driver_copy_io_image_002.jpg" width="800">
 
+### パス形式の例
 ```
-bpy.data.objects["オブジェクト名"].property[index]
-bpy.data.materials["マテリアル名"].node_tree.nodes["ノード名"].inputs[0].default_value
+bpy.data.objects["オブジェクト名"].location[0]
 bpy.data.scenes["シーン名"]["カスタムプロパティ名"]
+bpy.data.materials["マテリアル名"].node_tree.nodes["ノード名"].inputs[0].default_value
 ```
 
-## ライセンス
+## 【動作環境】
+Blender 4.2.0 以降で動作確認しています。
 
+## 【更新履歴】
+#### [2025-01-29 v2.1.0]
+- GitHub公開
+- README追加
+
+## 【ライセンス】
 GPL-3.0-or-later
