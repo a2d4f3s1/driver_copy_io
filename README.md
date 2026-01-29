@@ -9,12 +9,7 @@ Blender用のアドオンです。
 <img src="docs/driver_copy_io_image_001.jpg" width="800">
 
 ## 【導入方法】
-### Blender 4.2以降
-[プリファレンス > エクステンションを入手 > ディスクからインストール] からフォルダまたはzipを選択して下さい。
-
-### Blender 4.1以前
-[プリファレンス > アドオン > インストール] から `driver_copy_addon.py` を選択して下さい。
-
+[プリファレンス > アドオン > インストール] から `driver_copy_addon.py` を選択して下さい。  
 3Dビューのサイドパネル（Nキー）のツールに「Driver Copy」パネルが追加されます。
 
 ## 【使用方法】
