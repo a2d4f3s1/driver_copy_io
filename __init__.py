@@ -19,7 +19,7 @@ Driver Copy IO
 bl_info = {
     "name": "Driver Copy IO",
     "author": "moteki",
-    "version": (2, 1, 0),
+    "version": (2, 1, 1),
     "blender": (4, 2, 0),
     "location": "View3D > Sidebar > Tool > Driver Copy",
     "description": "Copy/Paste drivers via JSON using full path",
